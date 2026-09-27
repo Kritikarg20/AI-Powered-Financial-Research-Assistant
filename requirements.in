@@ -1,0 +1,30 @@
+# --- Application / UI ---
+streamlit
+
+# --- GenAI (Mistral via LiteLLM) ---
+litellm
+
+# --- RAG: embeddings + vector search ---
+# fastembed runs local ONNX embedding models (no PyTorch/CUDA, no local
+# server) — lightweight and well suited to a student project.
+fastembed
+faiss-cpu
+
+# --- Document processing ---
+pymupdf
+python-docx
+beautifulsoup4
+tabulate
+
+# --- Data / analysis ---
+pandas
+numpy
+yfinance
+plotly
+
+# --- Configuration ---
+python-dotenv
+
+# --- Testing ---
+pytest
+pytest-cov
